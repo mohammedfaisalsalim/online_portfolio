@@ -176,6 +176,16 @@ export const education = [
       "Obtained Dual Degree from Asia Pacific University and De Montfort University (UK).",
     ],
   },
+      {
+    degree: "MSc in Artificial intelligence",
+    institution: "Asia Pacific University, Malaysia",
+    date: "Aug 2025 - Sept 2026",
+    icon: apu,
+    iconBg: "#383E56",
+    points: [
+      "Currently persuing Masters in Artificial Intelligence"
+    ],
+  },
 ];
 
 
