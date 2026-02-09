@@ -29,10 +29,11 @@ import apu from "./company/apu.png";
 import ies from "./company/ies.png";
 
 import oneblood from "./oneblood.png";
-import migos from "./migos.png";
-import realtor from "./realtor.png";
+import zoomclone from "./zoomclone.png";
+import dashboard from "./dashboard.png";
 
 import linkedin from "./company/linkedin.png";
+import shan from "./shan.png";
 
 export {
   logo,
@@ -61,9 +62,10 @@ export {
   blesshost,
   mawea,
   oneblood,
-  migos,
-  realtor,
+  zoomclone,
+  dashboard,
   apu,
   ies,
   linkedin,
+  shan,
 };

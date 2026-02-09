@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import Tilt from 'react-parallax-tilt';
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-  I'm a dedicated software developer with hands-on experience in{" "}
+  I'm currently a student of Masters in Artificial Intelligence and a dedicated software developer with hands-on experience in{" "}
   <span style={{ color: "#b886e4", fontWeight: "bold" }}>
     JavaScript, Java, PHP, and SQL
   </span>, and a strong foundation in frameworks and tools like{" "}

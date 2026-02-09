@@ -20,11 +20,12 @@ import {
   mawea,
   dusky,
   oneblood,
-  migos,
-  realtor,
+  zoomclone,
+  dashboard,
   python,
   apu,
   ies,
+  shan,
 } from "../assets";
 
 export const navLinks = [
@@ -56,11 +57,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack Developer",
     icon: backend,
   },
   {
-    title: "PHP Developer",
+    title: "Network Assistant",
     icon: creator,
   },
 ];
@@ -168,12 +169,23 @@ export const education = [
     icon: apu,
     iconBg: "#383E56",
     points: [
-      "Graduated BSc (Hons) in Software Engineering with a CGPA of 3.00/4.00",
+      "Graduated BSc (Hons) in Software Engineering with a CGPA of 3.2/4.00",
       "Completed coursework in Web Design, Data Structures (C++), and Object-Oriented Development with Java.",
       "Gained skills in Software Architecture, Testing, and Requirements Engineering.",
       "Explored advanced topics including Optimization, Deep Learning, and Cloud Application Development.",
       "Hands-on experience with Software Quality Engineering and Enterprise Systems.",
       "Obtained Dual Degree from Asia Pacific University and De Montfort University (UK).",
+    ],
+  },
+
+    {
+    degree: "MSc in Artificial intelligence",
+    institution: "Asia Pacific University, Malaysia",
+    date: "Aug 2025 - Sept 2026",
+    icon: apu,
+    iconBg: "#383E56",
+    points: [
+      "Currently persuing Masters in Artificial Intelligence"
     ],
   },
 ];
@@ -224,13 +236,28 @@ const experiences = [
     title: "FreeLancer - Independent Projects",
     company_name: "LuminaCraft Studios",
     icon: lumina,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "May 2024 - Present",
     points: [
       "Coordinated with cross-functional teams to ensure successful delivery of software projects within scope, timeline, and quality standards.",
       "Conducted requirement gathering sessions with clients and stakeholders, translating business needs into technical specifications.",
       "Monitored project progress, managed task assignments, and facilitated communication between development teams and clients.",
       "Developed functional websites with great user experiences and implemented on-page/technical SEO for better visibility.",
+    ],
+  },
+    {
+    title: "Network Assistant @ Network Operations Center",
+    company_name: "Asia Pacific University",
+    icon: apu,
+    iconBg: "#383E56",
+    date: "Aug 2025 - Present",
+    points: [
+      "Supported daily operations of the Network Operations Center (NOC) for campus-wide IT infrastructure.",
+      "Performed troubleshooting and maintenance for wired and wireless networks.",
+      "Assisted with deployment and support of IP surveillance systems and access control devices.",
+      "Monitored and supported IoT devices connected to the network.",
+      "Conducted basic configuration and diagnostics on network devices (switches, access points).",
+      "Provided on-site technical support and resolved connectivity issues for staff and students."
     ],
   },
 ];
@@ -250,15 +277,15 @@ const testimonials = [
     name: "Eeashann Sivasankar",
     designation: "CEO",
     company: "Based Studio",
-    image: "https://media.licdn.com/dms/image/v2/D5635AQHT4FzncPA7Ww/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1672202966013?e=1745838000&v=beta&t=rITrCIBCZAVCtJR2g6hPUT2iG6qXIQR3bOmJL7Gsbow",
+    image: shan,
   },
   {
     testimonial:
-      "Faisal is a reliable and skilled software engineer with expertise in React, HTML, CSS, and MongoDB. He demonstrated good problem-solving skills, supported team members, and effectively delegated tasks to ensure smooth project execution.",
+      "Faisal is a person filled with hardworking spirit and relentlessness. Working with someone like him does gives me a peace of mind since I know he will go out of his way to accomplish the task. Even when working with task that is not in his expertise he still makes sure to perform his best.",
     name: "Wong Wei Jer",
     designation: "CTO",
     company: "Dusky.co",
-    image: "https://media.licdn.com/dms/image/v2/D4E03AQEyuSaqh_Rdbg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718534475512?e=1750896000&v=beta&t=ggeMaokyOui6TWqwbGFVjtm_lQOLrSCxqrQgcej-SRg",
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQEyuSaqh_Rdbg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718534475512?e=2147483647&v=beta&t=bvEZR9B5DSIMgEeHBYPJQB4dxFSSYSKTWdZKe44fqCs",
   },
 ];
 
@@ -285,46 +312,46 @@ const projects = [
     source_code_link: "https://github.com/mohammedfaisalsalim/one-blood-BDMS",
   },
   {
-    name: "Migos Express",
+    name: "Zoom Clone",
     description:
-      "Migos Express offers online express delivery with a user-friendly website where registered customers can manage deliveries and track their orders (even without logging in). Admins manage user accounts, while customers can register and log in using their phone numbers.",
-    tags: [
-      {
-        name: "PHP",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "HTML & CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "MySQL",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: migos,
-    source_code_link: "https://github.com/mohammedfaisalsalim/Migos-Express",
-  },
-  {
-    name: "Realtor",
-    description:
-      "A realtor website serves as an online hub for buying, selling, and renting properties, offering searchable listings with detailed information and visuals. It aims to connect potential clients with real estate agents and provide resources for navigating the property market.",
+      "A Zoom clone app is a platform for video conferencing, online meetings, webinars, and screen sharing, enabling users to connect remotely for collaboration, communication, and virtual events while creating and managing meetings.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "react",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
-        name: "chakra-ui",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
-    image: realtor,
-    source_code_link: "https://github.com/mohammedfaisalsalim/Realtor",
+    image: zoomclone,
+    source_code_link: "https://github.com/mohammedfaisalsalim/zoom_clone",
+  },
+  {
+    name: "Admin Dashboard",
+    description:
+      "This admin dashboard provides a clear and organized overview of your key data and functionalities. Effortlessly manage your website or application with intuitive charts, quick access controls, and customizable widgets, empowering you to make informed decisions and streamline operations.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Syncfusion ",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Dashboard",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dashboard,
+    source_code_link: "https://github.com/mohammedfaisalsalim/admin_dashboard",
   },
 ];
 
