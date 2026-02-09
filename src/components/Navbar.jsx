@@ -66,7 +66,7 @@ const Navbar = () => {
           {/* Social Media Icons */}
           <li>
             <a
-              href='https://www.linkedin.com/in/mohammed-faisal-salim/' // Replace with your actual LinkedIn URL
+              href='https://www.linkedin.com/in/faisal-salim-chowdhury/' // Replace with your actual LinkedIn URL
               target='_blank'
               rel='noopener noreferrer'
             >
