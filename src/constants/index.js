@@ -60,7 +60,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "PHP Developer",
+    title: "Network Assistant",
     icon: creator,
   },
 ];
