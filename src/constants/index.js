@@ -243,6 +243,21 @@ const experiences = [
       "Developed functional websites with great user experiences and implemented on-page/technical SEO for better visibility.",
     ],
   },
+      {
+    title: "Network Assistant @ Network Operations Center",
+    company_name: "Asia Pacific University",
+    icon: apu,
+    iconBg: "#383E56",
+    date: "Aug 2025 - Present",
+    points: [
+      "Supported daily operations of the Network Operations Center (NOC) for campus-wide IT infrastructure.",
+      "Performed troubleshooting and maintenance for wired and wireless networks.",
+      "Assisted with deployment and support of IP surveillance systems and access control devices.",
+      "Monitored and supported IoT devices connected to the network.",
+      "Conducted basic configuration and diagnostics on network devices (switches, access points).",
+      "Provided on-site technical support and resolved connectivity issues for staff and students."
+    ],
+  },
 ];
 
 const testimonials = [
