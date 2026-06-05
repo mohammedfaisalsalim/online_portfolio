@@ -185,7 +185,8 @@ export const education = [
     icon: apu,
     iconBg: "#383E56",
     points: [
-      "Currently persuing Masters in Artificial Intelligence"
+      "Currently persuing Masters in Artificial Intelligence",
+      "Current CGPA 3.60. "
     ],
   },
 ];
@@ -206,7 +207,7 @@ const experiences = [
     ],
   },
   {
-    title: "Technical Engineer",
+    title: "Technical Engineer Intern",
     company_name: "MAWEA Industries",
     icon: mawea,
     iconBg: "#E6DEDD",
@@ -219,7 +220,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineer / Project Manager",
+    title: "Software Engineer Intern / Project Manager",
     company_name: "Dusky.co",
     icon: dusky,
     iconBg: "#383E56",
