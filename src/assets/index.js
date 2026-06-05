@@ -21,7 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import php from "./tech/php.png";
 import python from "./tech/python.png";
 
-import lumina from "./company/lumina.png";
+import lumina from "./company/Lumina.png";
 import dusky from "./company/dusky.png";
 import blesshost from "./company/blesshost.png";
 import mawea from "./company/mawea.png";
