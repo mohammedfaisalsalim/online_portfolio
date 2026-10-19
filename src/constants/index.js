@@ -49,7 +49,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
@@ -57,7 +57,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Full Stack Developer",
+    title: "AI Engineer",
     icon: backend,
   },
   {
@@ -181,7 +181,7 @@ export const education = [
     {
     degree: "MSc in Artificial intelligence",
     institution: "Asia Pacific University, Malaysia",
-    date: "Aug 2025 - Sept 2026",
+    date: "Aug 2025 - Jan 2027",
     icon: apu,
     iconBg: "#383E56",
     points: [
@@ -247,18 +247,18 @@ const experiences = [
     ],
   },
     {
-    title: "Network Assistant @ Network Operations Center",
+    title: "Senior Network Assistant @ Network Operations Center",
     company_name: "Asia Pacific University",
     icon: apu,
     iconBg: "#383E56",
     date: "Aug 2025 - Present",
     points: [
-      "Supported daily operations of the Network Operations Center (NOC) for campus-wide IT infrastructure.",
-      "Performed troubleshooting and maintenance for wired and wireless networks.",
-      "Assisted with deployment and support of IP surveillance systems and access control devices.",
-      "Monitored and supported IoT devices connected to the network.",
+      "Maintain 99%+ uptime across campus-wide wired and wireless network infrastructure serving thousands of staff and students.",
+      "Resolve Level 1 & Level 2 support tickets daily, liaising directly with vendors to optimize network performance and accelerate issue resolution.",
+      "Deployed and now manage IP surveillance systems and access control devices across campus, reducing security incident response time.",
+      "Worked hands-on with Extra Low Voltage (ELV) systems including access controllers, IP surveillance, and intercom devices — diagnosing faults, troubleshooting hardware and configuration issues, and restoring functionality across campus.",
       "Conducted basic configuration and diagnostics on network devices (switches, access points).",
-      "Provided on-site technical support and resolved connectivity issues for staff and students."
+      "Provided both hands-on and technical training to NOC trainees and overlooked their growth."
     ],
   },
 ];

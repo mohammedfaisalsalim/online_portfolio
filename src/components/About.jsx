@@ -47,18 +47,18 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-  I'm currently a student of Masters in Artificial Intelligence and a dedicated software developer with hands-on experience in{" "}
+  I'm currently an MSc Artificial Intelligence student and a dedicated software engineer with hands-on experience in{" "}
   <span style={{ color: "#b886e4", fontWeight: "bold" }}>
-    JavaScript, Java, PHP, and SQL
-  </span>, and a strong foundation in frameworks and tools like{" "}
+    JavaScript, React, Node.js, PHP, and Python
+  </span>, alongside a strong foundation in{" "}
   <span style={{ color: "#b886e4", fontWeight: "bold" }}>
-    React, Bootstrap, HTML, CSS, and MongoDB
+    full-stack web development and network operations
   </span>.{" "}
   I’m a{" "}
   <span style={{ color: "#b886e4", fontWeight: "bold" }}>fast learner</span>{" "}
-  who thrives in team environments, and I’ve contributed to both{" "}
-  <span style={{ color: "#b886e4", fontWeight: "bold" }}>frontend</span> and{" "}
-  <span style={{ color: "#b886e4", fontWeight: "bold" }}>backend</span> projects—from dynamic websites to full-cycle application development.
+  who thrives in team environments, bridging{" "}
+  <span style={{ color: "#b886e4", fontWeight: "bold" }}>frontend</span>,{" "}
+  <span style={{ color: "#b886e4", fontWeight: "bold" }}>backend</span>, and infrastructure solutions.
   <br /><br />
   I’m passionate about building{" "}
   <span className="text-white font-semibold">clean</span>,{" "}
